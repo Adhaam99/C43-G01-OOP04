@@ -34,8 +34,8 @@ namespace Assignment
 
             return new ComplexNumber()
             {
-                Real = left.Real + right.Real,
-                Img = left.Img + right.Img
+                Real = (left?.Real ?? 0) + (right?.Real ?? 0),
+                Img = (left?.Img ?? 0) + (right?.Img ?? 0)
             };
 
         }
@@ -45,8 +45,8 @@ namespace Assignment
 
             return new ComplexNumber()
             {
-                Real = left.Real - right.Real,
-                Img = left.Img - right.Img
+                Real = (left?.Real ?? 0) - (right?.Real ?? 0),
+                Img = (left?.Img ?? 0) -( right?.Img ?? 0)
             };
 
         }

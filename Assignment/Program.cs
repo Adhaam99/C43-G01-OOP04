@@ -39,9 +39,9 @@ namespace Assignment
 
             #region Q3 - Define a class Complex Number that represents a complex number with real and imaginary parts.
 
-            ComplexNumber C1 = new ComplexNumber() { Real = 7 , Img = 3};
+            //ComplexNumber C1 = new ComplexNumber() { Real = 7 , Img = 3};
 
-            ComplexNumber C2 = new ComplexNumber() { Real = 10, Img = 6 };
+            //ComplexNumber C2 = new ComplexNumber() { Real = 10, Img = 6 };
 
             ////ComplexNumber C3 = C1 + C2;
 
@@ -51,7 +51,16 @@ namespace Assignment
 
             //Console.WriteLine(C3);
 
+            #endregion
 
+            #region Q4 
+
+            #region a) Create a base class named Employee with method That Work as it prints "Employee is working".
+
+
+            #endregion
+
+            k
             #endregion
 
 
