@@ -57,10 +57,20 @@ namespace Assignment
 
             #region a) Create a base class named Employee with method That Work as it prints "Employee is working".
 
+            //Employee employee = new Employee();
+
+            //employee.Work();
 
             #endregion
 
-            k
+            #region b) Create a derived class named Manager that overrides the Work method to print "Manager is managing".
+
+            //Manager manager = new Manager();
+
+            //manager.Work();
+
+            #endregion
+
             #endregion
 
 

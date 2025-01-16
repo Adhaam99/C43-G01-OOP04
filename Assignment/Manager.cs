@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Assignment
 {
-    internal class Manager
+    class Manager : Employee
     {
+
+        #region Methods
+
+        public override void Work()
+        {
+            Console.WriteLine("Manager is managing");
+        }
+
+        #endregion
+
     }
 }

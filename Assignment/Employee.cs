@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace Assignment
 {
-    internal class Employee
+    class Employee
     {
+
+        #region Methods
+
+        public virtual void Work()
+        {
+
+            Console.WriteLine("Employee is working");
+
+        }
+
+        #endregion
     }
 }
