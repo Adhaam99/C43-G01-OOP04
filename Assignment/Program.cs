@@ -37,6 +37,22 @@ namespace Assignment
 
             #endregion
 
+            #region Q3 - Define a class Complex Number that represents a complex number with real and imaginary parts.
+
+            ComplexNumber C1 = new ComplexNumber() { Real = 7 , Img = 3};
+
+            ComplexNumber C2 = new ComplexNumber() { Real = 10, Img = 6 };
+
+            ////ComplexNumber C3 = C1 + C2;
+
+            ////Console.WriteLine(C3);
+
+            //ComplexNumber C3 = C1 - C2;
+
+            //Console.WriteLine(C3);
+
+
+            #endregion
 
 
             #endregion
