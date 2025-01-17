@@ -153,6 +153,7 @@ namespace Assignment
             //else
             //    Console.WriteLine(" D1 = D2 ");
 
+
             //if (D1 <= D2)
             //    Console.WriteLine(" D1 <= D2 ");
             //else
