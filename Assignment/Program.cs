@@ -92,13 +92,20 @@ namespace Assignment
  * 
  * When a method in a derived class is marked with override, it replaces the method with the same signature in the base class. The base class method must be marked with virtual, abstract, or override.
  * 
+ * [Dynamic-Ploymorphism] in the runtime.
+ * 
+ * 
  * 
  * The new keyword is used to hide a member of the base class. This means you are creating a new member in the derived class that has the same name as one in the base class.
  * 
  * When a method in a derived class is marked with new, it hides the method with the same signature in the base class. This does not replace the base class method but creates a new method in the derived class.
-
+ * 
+ * [Static-Polymorphism] in the compile time.
+*/
 
 #endregion
+
+
 
 
 #endregion
